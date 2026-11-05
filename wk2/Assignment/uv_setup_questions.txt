@@ -1,0 +1,33 @@
+
+
+1) Why is it important to isolate different data science projects from each other instead of installing all Python packages globally on your machine?
+
+Although projects may use the same tools, libraries, technologies, keeping them isolated makes them less vulnerable to breaking or using versions from other projects which can cause issues.
+
+
+2) In this modern setup, you did not have to write a requirements.txt file or run an activation script (like source bin/activate). Explain how uv tracks and handles your environment packages automatically.
+
+When you run "uv add" this automatically tracks your build by adding the package to the pyproject.toml and updates the uv.lock file and installs into a .venv folder inside the project folder, which is everything needed to run your environment.
+When you use "uv run" this automatically uses the .venv so that is why you do not need an activate script.
+
+
+3) Open the pyproject.toml file. What is the purpose of this file in a collaborative environment? If you shared your project folder with a colleague, how does this file help them?
+
+This pyproject.toml states the specific technologies and also lists the required Python version needed for this project in particular. If you did not have this it would cause issues and errors. 
+
+When collaborating with others a colleague can run "uv sync" and uv will install everything listed. This file makes it possible for the project to run with all the compatibilities needed.
+
+
+4) Look at the uv.lock file that was generated. How does a lockfile differ from your pyproject.toml file, and why is a lockfile critical for absolute data science reproducibility?
+
+The pyproject.toml file shows specifically what I added and installed.
+The uv.lock file holds all the exact versions of all the packages and their dependencies as well.
+
+A lock file is critical because versions may change over time but the environment needed for the project to run will always be the same to ensure it works out of the box when others run the project.
+
+
+5) uv is significantly faster than traditional package managers due to its global cache. Why are tool speed and workflow efficiency important when managing code environments in a professional engineering environment?
+
+Caching globals and making it reusable makes system setup fast and efficient versus rebuilding the system every time it is needed which makes it slow and wasteful of time and resources.
+
+Rebuilding environments is inefficient and slow; in a professional setting, environments are rebuilt often, especially when getting new employees up to speed, fast tools save time and resources.

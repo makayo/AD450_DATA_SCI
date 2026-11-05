@@ -1,0 +1,12 @@
+Is Data Scientist Still the Sexiest Job of the 21st Century?
+
+"but unfortunately there are as yet no great tools for structuring
+and supporting collaborative data science activities"
+
+I chose this segment because the article was written in 2022, and AI technology has advanced considerably since then. I imagine that newer AI coding assistants, shared development environments, and automated workflows have made it easier for data science teams to collaborate. However, I wonder whether these tools have solved the problem or simply created new challenges,  verifying AI-generated work and keeping code consistent. It would be interesting to know whether collaboration has improved as much as the technology itself or pushed developers back into the basements.
+
+
+"As a result of this proliferation of skills, companies need to identify all of the different roles required to effectively deploy data science models in their businesses, and ensure that they are present and collaborating on teams."
+
+I chose this segment because it makes me think about how AI may be making experienced developers more expendable. As companies trim their workforce and push for greater productivity, they may replace higher paid, experienced developers with younger, AI powered developers expected to do more with less experience. The human cost is overlooked. Like a cheaply made plastic part, developers are pushed until they wear out, burn out, and are replaced. AI is advancing faster than companies are considering the long term consequences for the people expected to keep up with it.
+
