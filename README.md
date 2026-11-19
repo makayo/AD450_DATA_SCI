@@ -11,7 +11,10 @@ Python projects focused on data exploration, cleaning, analysis, and visualizati
 | [Coffee Cleaning](wk4/coffee-cleaning/) | Data cleaning |
 | [Netflix Cleaning](wk6/netflix-cleaning/) | Data preprocessing |
 | [Video Game Sales](WK7/videogame-correlations/) | Correlation analysis and visualization |
+| [Coffee Production Analysis](WK8/coffee-types-analysis/) | Production trends and correlation analysis |
 
 ## Tech Stack
 
 Python · Pandas · NumPy · Matplotlib · Seaborn · Jupyter Notebook · uv
+	
+
