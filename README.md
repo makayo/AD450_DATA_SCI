@@ -12,6 +12,7 @@ Python projects focused on data exploration, cleaning, analysis, and visualizati
 | [Netflix Cleaning](WK6/netflix-cleaning/) | Data preprocessing |
 | [Video Game Sales](WK7/videogame-correlations/) | Correlation analysis and visualization |
 | [Coffee Production Analysis](WK8/coffee-types-analysis/) | Production trends and correlation analysis |
+| [Network Intrusion Detection](WK9/dynamic-visualization/) | Cybersecurity data analysis and visualization |
 
 ## Tech Stack
 
